@@ -1,0 +1,25 @@
+\renewcommand{\imprimircapa}{%
+	% Toda capa deve ter pagina 0
+	\setcounter{page}{0}
+	\begin{capa}%
+		% Todos os elementos da capa devem esta centralizado
+		\center
+		% Todos os elementos da capa devem esta em negrito
+		\bfseries
+
+        \vspace{0.1cm}
+		\MakeUppercase{Unip interativa} \\
+		\normalsize{Projeto Integrador Multidiciplinar} \\
+		\normalsize{Cursos Superiores em Tecnologia} \\
+
+		\vspace{\onelineskip}
+		
+		\vspace{5cm}
+		
+		\MakeUppercase{\imprimirtitulo}
+		
+		\vfill
+		\normalsize{Polo} \\
+		\normalsize\imprimirdata
+	\end{capa}	
+}
