@@ -1,0 +1,27 @@
+\newcommand{\palavraschave}[1]{
+	\vspace{\onelineskip} 
+	\noindent \textbf{Palavras-chave:} #1
+	\hypersetup{
+		pdfborder = {0 0 0}
+	}
+}
+
+\newcommand{\keywords}[1]{
+	\vspace{\onelineskip} 
+	\noindent \textbf{Keywords:} #1
+	\hypersetup{
+		pdfborder = {0 0 0}
+	}
+}
+
+\newcommand{\imprimirresumo}[1]{ 
+	\begin{resumo} 
+		\input{#1} 
+	\end{resumo} 
+}
+
+\newcommand{\imprimirabstract}[1]{ 
+	\begin{resumo}[Abstract] 
+		\input{#1} 
+	\end{resumo} 	
+}
