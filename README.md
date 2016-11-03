@@ -1,2 +1,2 @@
-# unip_pim
-LaTeX com todo o manual do PIM da UNIP
+# LaTeX com o padrão para o PIM da UNIP
+Peguei o manual do PIM da UNIP e criei essa formatação usando LaTeX
